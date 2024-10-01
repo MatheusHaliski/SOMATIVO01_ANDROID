@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_border"
+    android:padding="8dp">
+
+    <!-- Coluna Nome -->
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Nome"
+        android:textColor="#000000" />
+
+    <!-- Coluna Email -->
+    <TextView
+        android:id="@+id/tv_user_email"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="#000000"
+         />
+
+    <!-- Coluna Data de Nascimento -->
+    <TextView
+        android:id="@+id/tv_user_birthdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Data de Nascimento"
+        android:textColor="#000000"
+   />
+
+    <!-- Coluna Senha -->
+    <TextView
+        android:id="@+id/tv_user_password"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Senha"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
