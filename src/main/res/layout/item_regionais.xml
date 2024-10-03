@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="175dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/item_background"> <!-- Borda ao redor do LinearLayout -->
+
+    <!-- Coluna Nome -->
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Nome do Filme"
+        android:textStyle="bold"
+        android:textSize="18sp" /> <!-- Aumentar o tamanho da fonte -->
+
+    <!-- Coluna Horário -->
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Horario"
+        android:textStyle="bold"
+        android:textSize="18sp" /> <!-- Aumentar o tamanho da fonte -->
+
+    <!-- Coluna Idioma -->
+    <TextView
+        android:id="@+id/idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Idioma"
+        android:textStyle="bold"
+        android:textSize="14sp" /> <!-- Aumentar o tamanho da fonte -->
+
+    <ImageView
+        android:id="@+id/PosterImageView"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center" />
+</LinearLayout>
